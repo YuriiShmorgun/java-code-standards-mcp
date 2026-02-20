@@ -64,15 +64,13 @@ Mockito.when(mock.method()).thenReturn(value);
 ```java
 // WRONG
 import java.util.*;
-import com.example.service.*;
 import org.springframework.web.bind.annotation.*;
 
 // CORRECT
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
-import com.example.service.UserService;
-import com.example.service.OrderService;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
