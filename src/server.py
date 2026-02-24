@@ -206,4 +206,5 @@ def list_tags() -> dict:
 
 
 if __name__ == "__main__":
-    mcp.run(transport="sse", host="127.0.0.1", port=8000)
+    #mcp.run(transport="sse", host="127.0.0.1", port=8000)
+    mcp.run(transport="sse", host="0.0.0.0", port=80)
